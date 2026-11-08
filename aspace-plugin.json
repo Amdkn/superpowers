@@ -1,0 +1,24 @@
+{
+  "$schema": "https://aspaceos.tech/schemas/cordis-fiber-v5.json",
+  "name": "@aspace-v5/superpowers",
+  "submodule_path": "01_Forkable/FKB00_Runtime/03_MasterSpec_CleanPlan/superpowers",
+  "sovereign_fork_url": "https://github.com/Amdkn/superpowers.git",
+  "branch": "aspace-v5-native",
+  "family": "DETERMINISTIC_GOVERNANCE_TDD",
+  "fractal_layer": "4L",
+  "holon_owner": "S1-RICK",
+  "capabilities": [
+    "egm_context_isolation",
+    "gstack_role_perspectives",
+    "superpowers_headless_tdd",
+    "gsd_40pct_cap"
+  ],
+  "a0_integration_target": "02_Factory/checks.ps1",
+  "egm_gateway_endpoint": "http://127.0.0.1:31415/v1/chat/completions",
+  "shared_brain_path": "00_Memoire/shared_brain/memory.jsonl",
+  "cordis_contract": {
+    "everything_is_a_plugin": true,
+    "revertible_effects": true,
+    "reactive_coeffects": true
+  }
+}
